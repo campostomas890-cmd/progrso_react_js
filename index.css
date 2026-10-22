@@ -1,0 +1,46 @@
+
+
+:root {
+  --color-principal: blue;
+  --color-secundario: charcoal;
+  --fuente-base: sans-serif;
+}
+
+
+body {
+  background-color: lightgray;
+  color: var(--color-secundario);
+  font-family: var(--fuente-base);
+}
+
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: var(--color-principal);
+}
+
+
+img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+
+form {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+
+.texto-destacado {
+  font-weight: bold;
+}
+
+
+#boton-enviar {
+  background-color: var(--color-principal);
+  color: white;
+}
